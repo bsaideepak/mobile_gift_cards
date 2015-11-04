@@ -1,0 +1,31 @@
+[ 2015-11-02 01:04:00.7514 35619/0x7fff7e797300 age/Wat/WatchdogMain.cpp:1276 ]: Starting Passenger watchdog...
+[ 2015-11-02 01:04:00.7684 35621/0x7fff7e797300 age/Cor/CoreMain.cpp:957 ]: Starting Passenger core...
+[ 2015-11-02 01:04:00.7690 35621/0x7fff7e797300 age/Cor/CoreMain.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2015-11-02 01:04:00.7757 35621/0x7fff7e797300 age/Cor/CoreMain.cpp:707 ]: Passenger core online, PID 35621
+[ 2015-11-02 01:04:00.7821 35623/0x7fff7e797300 age/Ust/UstRouterMain.cpp:504 ]: Starting Passenger UstRouter...
+[ 2015-11-02 01:04:00.7830 35623/0x7fff7e797300 age/Ust/UstRouterMain.cpp:317 ]: Passenger UstRouter online, PID 35623
+App 35636 stdout: 
+App 35649 stdout: 
+
+
+[ 2015-11-02 09:11:03.6562 35623/0x10fb2c000 age/Ust/UstRouterMain.cpp:397 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-02 09:11:03.6561 35621/0x10e8a2000 age/Cor/CoreMain.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-02 09:11:03.6584 35623/0x7fff7e797300 age/Ust/UstRouterMain.cpp:467 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-02 09:11:03.6584 35621/0x7fff7e797300 age/Cor/CoreMain.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-02 09:11:03.6593 35621/0x7fff7e797300 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 35649, application /Users/sai/alterdollar/public (development)
+[ 2015-11-02 09:11:03.6601 35623/0x10fb2c000 Ser/Server.h:444 ]: [UstRouter] Shutdown finished
+[ 2015-11-02 09:11:03.6605 35623/0x10fc32000 Ser/Server.h:758 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2015-11-02 09:11:03.6614 35623/0x10fc32000 Ser/Server.h:444 ]: [UstRouterApiServer] Shutdown finished
+[ 2015-11-02 09:11:03.6619 35621/0x10e9a8000 Ser/Server.h:758 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-11-02 09:11:03.6624 35621/0x10e8a2000 Ser/Server.h:758 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-11-02 09:11:03.6624 35623/0x7fff7e797300 age/Ust/UstRouterMain.cpp:498 ]: Passenger UstRouter shutdown finished
+[ 2015-11-02 09:11:03.6625 35621/0x10eaae000 Ser/Server.h:758 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-11-02 09:11:03.6625 35621/0x10e9a8000 Ser/Server.h:444 ]: [ServerThr.2] Shutdown finished
+[ 2015-11-02 09:11:03.6626 35621/0x10eaae000 Ser/Server.h:444 ]: [ServerThr.3] Shutdown finished
+[ 2015-11-02 09:11:03.6626 35621/0x10e8a2000 Ser/Server.h:444 ]: [ServerThr.1] Shutdown finished
+[ 2015-11-02 09:11:03.6626 35621/0x10ebb4000 Ser/Server.h:758 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-11-02 09:11:03.6626 35621/0x10ebb4000 Ser/Server.h:444 ]: [ServerThr.4] Shutdown finished
+[ 2015-11-02 09:11:03.6630 35621/0x10ecba000 Ser/Server.h:758 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-11-02 09:11:03.6630 35621/0x10ecba000 Ser/Server.h:444 ]: [ApiServer] Shutdown finished
+[ 2015-11-02 09:11:03.6649 35621/0x7fff7e797300 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 35649, application /Users/sai/alterdollar/public (development)
+[ 2015-11-02 09:11:04.2940 35621/0x7fff7e797300 age/Cor/CoreMain.cpp:942 ]: Passenger core shutdown finished
